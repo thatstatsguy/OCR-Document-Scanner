@@ -6,7 +6,8 @@ from pdf2image import convert_from_path
 import os
 
 # Path of the pdf
-PDF_file = "test.pdf"
+outtext="Chapter 6"
+PDF_file = outtext+ ".pdf"
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 ''' 
 Part #1 : Converting PDF to images 
@@ -44,11 +45,11 @@ Part #2 - Recognizing text from the images using OCR
 filelimit = image_counter - 1
 
 # Creating a text file to write the output
-outfile = "out_text.txt"
+outfile = outtext+".txt"
 
 # Open the file in append mode so that
 # All contents of all images are added to the same file
-f = open(outfile, "a")
+f = open(outfile, "a",errors='ignore')
 
 # Iterate from 1 to total number of pages
 for i in range(1, filelimit + 1):
