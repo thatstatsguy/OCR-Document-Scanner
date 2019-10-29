@@ -1,0 +1,813 @@
+CHAPTER 1
+DESCRIPTION OF DATA
+
+Objectives
+After the completion of this chapter, the student should be able to calculate and
+
+interpret the following from a given sample of data:
+
+(1) _ Measures of centrality: Arithmetic Mean, Mode, and Median. Relation between
+these three. .
+
+(2) _- Summary Measures: Quartiles, Deciles and Percentiles.
+
+(3) - Measures of variability;: Range, interquartile Range, Variance and Standard
+
+Deviation. . . ,
+(4) _ Composite Summary Measures: Coefficient of Variation and the Coefficient of
+
+Skewness.
+(5) _ Graphical representation of data: Box Plot, Histogram, Polygon and Ogive.
+
+1.1 _- Introduction
+Statistics is one of the most important branches of applied mathematics. It is
+used in fields like agriculture, physical sciences and human sciences.
+Descriptive statistics is mainly concerned with summary calculations and
+graphical displays of data.
+In this module we will study the description of data obtained from samples.
+
+1.2 Definitions
+
+1.2.1 Population / Sample
+A population is the total set of elements of interest for a given problem. A
+sample is. a subset of a population. In later studies we use statistics obtained
+from samples to make predictions for the population the sample came from. This
+is called Statistical Inference.
+
+1.2.2 The statistic
+
+A statistic is a function of the samplédata. Examples of a statistic are the
+arithmetic mean, mode, median and standard deviation. These will be defined
+in the following sections. ‘
+
+1.2.3 Arithmetic mean
+The arithmetic mean is the sum of all the data divided by the number of
+observations. Thus if X,, X,, .... X, are n observations, then we write the
+arithmetic mean as follows:
+
+Aq +X +... +X,
+
+n
+X
+
+A}
+
+X =The Greek capital letter £ (Sigma) is used to indicate the sum of a number of elements.
+The subscript i in formula (1.1) is a discrete variable which assumes the values 1, then
+2, 3,... up to the last observation n. We will often use this notation.
+
+1.2.4 The mode
+The mode is the most frequently occurring value. If it is important to know which
+
+observation occurred most often, the mode is determined.
+
+1.2.5 The median
+The median is the middle value when the data are arranged in numerical
+
+sequence. Fifty percent of the observations are greater than the median and
+50% are less. tor ‘
+
+1.3 - Measures of deviation _
+All the previous statistics, the mean, mode and median are measures of central
+
+tendency, i.e. a number which tries to indicate a "central" value in a set of data.
+Statistics which describe the spread or variation of data are called measures of
+
+deviation or dispersion.
+
+1.3.1 The range
+The range is the simplest statistic which gives a indication of the spread of a set
+
+of numbers. It is simply equal to the difference between the lowest and highest
+value in a sample. The range has the serious disadvantage in that it only uses
+the extreme two values of the sample and ignores the information contained in
+the rest of the sample. The following statistics overcome this problem.
+
+1.3.2 The variance
+If we add all the squared differences between each sample value and the
+
+sample mean and divide this quantity by (n -1), we obtain the variance:
+
+(X, X) +(X,-X)+... +(X, -X»
+
+S2=
+n-1
+
+ 
+
+And if we use the >. notation:
+
+n-~1
+
+The standard deviation S is the square root of the variance:1.3.3 Example
+
+1.4
+
+Consider the following data set:
+
+X, 24 13, 18, 35, 5, 28, 31,“ 24, 29
+
+The méan: - {
+__E X,
+
+24+13+ +29
+
+9
+= 23
+
+_ The mode: the number 24 occurs twice, hence this is the mode.
+
+The median: first arrange the data set in ascending order: 
+A, : 5, 13, 18, 24, 24, 28, 29, 31, 35
+{
+
+Hence the median is 24.
+
+Note: if the set of data has an even number of elements we obtain the median
+by computing the mean of the two middle numbers.
+
+The standard deviation:
+
+5 - I X (Xx Y
+n~-1
+
++... }
+
+rnm
+s
+
+9-1
+= 9,49
+Remarks:
+(1) _ The mode and median are equal in this case, but this is in general not
+true.
+
+(2) - Another data set Y might have a equal mean but a smaller or greater
+standard deviation, depending on the variation in the data set.
+
+Grouped data
+
+When summarizing large masses of raw data, it is often useful to distribute the
+data into classes or categories. The number of individuals belonging to each
+class is determined, and this is called the class frequency. A tabular
+arrangement of data by classes together with the corresponding class frequency
+is called a frequency distribution or frequency table. Table 1.1 is a sample of
+60 determinations of the copper content of a standard solution.Table 1.1
+
+COPPER DETERMINATIONS (p.p.m.)
+61,0 654 - 60,0 _ 592 - 57,0 625 - 57.7 562 - 62,9
+56,5 60,2 - 582 - 56,5 - 64,7. 545 - 60,5 595 - 61,6
+58,7 544 - 62,2 59,0 - 60,3 60.8 - 59,5 - 60,0 : 61,8
+B45 66,3 0 61.100 59.7 57,4 612 60,9 582 - 63,0
+56,0 - 59,4 _ 60,0 _ 629 - 60,5 60,8 61,5 585 - 58,9
+61.2 57.800 634 0 58,900 61.5000 62.3 _ 59,8 6117 - 64,0
+c 62,7
+
+These observations were made to an accuracy of 3 significant numbers and to
+1 decimal place. To obtain a good overall impression of such a large data set,
+
+it is necessary to group the data in a frequency distribution.
+
+- Table 1.2 _ COPPER DETERMINATIONS
+
+Classes Class Mark Frequency Cumulative copper conc. Frequenc
+
+   
+   
+
+       
+
+1 4.1 Classes
+The left column contains the class intervals. In setting up the class intervals we
+
+must consider:
+
+(1) _ The number of classes
+As a guide Sturge's Rule can be used:
+
+K=1+(3,3 Log n)
+
+_ Where - K=the number of classes
+n=the sample size
+in this example the number of classes is given by:
+
+K=1 +(3,3 Logn)
+=1 +3,3L0g60) °=6,87 =7(2)
+
+(3) 
+Class size
+The class size is obtained by dividing the Range (highest - lowest number in
+
+- data) by the number of classes obtained above. In this example the range is
+
+equal to 66,3 - 54,4 =11,9 we find the class size to be 11,977 =1,7. For practical
+
+- reasons this is rounded to the nearest whole number. In this example we will
+- have a class width of 2 ppm.
+
+Class limits | .
+Since 54,4 was the lowest determination, we take our first class within the limits
+
+54,0 and 55,9 (see table 1.2). The next class starts with a lower limit of 56,0 and
+
+~~~ ends with a higher limit of 57,9. This is continued until the highest determination
+
+-@
+
+(8)
+
+(6)
+
+falls in the last class.
+
+The class boundaries _- , | e
+
+The lower class boundary and upper class boundary of the first class will be
+53,95 and 55,95 respectively. This gives us a class ppm size of 2 ppm. Since
+the copper determinations were accurate to one decimal place we calculate the
+class boundaries to two decimal places. This will prevent that an observation
+will fall on a class boundary. Schematically, the class limits and boundaries of
+the third class can be shown as follows: - 
+Class Boundaries
+
+    
+
+Class Limits
+
+  
+
+57.95 - 58,0 59.9 - 59,95
+
+The class mark
+Ali the determinations in each class are represented by a single number; the
+Class Mark. It is found by dividing the sum of the limits of a class by 2. Thus for
+
+the first class in table 1.2; (54,0 + 55,9)/2 = 54,95.
+
+The class frequency
+The number of observations in each class is found in the third column of table
+
+1.2. '
+
+1.4.2 Relative frequency distributions
+
+The relative frequency of a class is the frequency of the class divided by the
+total frequency of all classes. It is generally expressed as a percentage. The 
+relative frequency of the class 58,0 - 59,5 in table 1.2 is (14/80)x100 =23,3% .
+
+If the frequencies in a frequency table are replacéd. by the relative frequency,
+the resulting table is a relative frequency table.1.4.3 Cumulative frequency distributions
+The total frequency of all values less than the upper class boundary of a given
+class interval, is called the cumulative frequency up to and including the class
+
+interval. For example: the cumulative frequency up to and including the class
+interval 58 - 59,5 is 2 + 8 + 14 = 24, signifying that 24 determinations showed
+
+a copper concentration of 59,95 ppm or less.
+
+1.4.4 The relative cumulative frequency distribution
+If the cumulative frequencies are divided by the total frequency and expressed
+as a percentage, we obtain the relative cumulative frequency distribution.
+
+1.5 _ Measures of central tendency
+
+1.5.1 The arithmetic mean .
+The same definition as in 1.2.3 is used. The X, are (in the case of a frequency
+
+table) taken as the class midpoints. If the class midpoints X,, X;, ..., X, (and thus
+the classes themselves) occur f,, f,, .... f, times respectively, the arithmetic
+
+mean is:
+LA, * hG* let £. X,
+
+f f
+
+z _ _I»
+N
+
+s 2 _
+
+ 
+
+Remark:
+Since we let a single class midpoint represent all the determinations which are
+
+grouped in that class, we lose information. The arithmetic mean is thus not the
+exact mean but an approximation.
+
+1.5.2 The mode w
+~ The same definition as for ungrouped data applies. In the case of a frequency
+
+table the mode is approximated as follows:
+
+D,
+Mo = L + | -----}]} C
+
+D, + P,
+Where L = lower boundary of modal class.
+D, = Difference between modal frequency and frequency of class before
+modal class
+
+D, = Difference between modal frequency and frequency of the class
+
+after modal class.
+C = Class widthThe median 
+For grouped data the median is given by
+
+127-4201 c
+
+Me =L +
+f . fMef, . | .
+where L =_ lower class boundary ofthe median class (i.e. the class containing
+the median) :
+
+no - = number of items in the data (i.e. total frequency).
+(Zf) ,= the sum of the frequencies before the class which contains the
+median.
+C _ = the class size.
+
+1. 5 4 Quamles declles and percentiles
+The median divides the set of data in two equal parts. in a similar way this set
+
+could be divided in four equal parts called quartiles; Q,, Q,, Q, respectively.
+Ten equal parts called deciles denoted by D,, D,,... D, or one hundred equal
+parts denoted by f,, f;, .., f,, (percentiles) are also possible.
+
+Note: The median is thus equal to Q, , D, and P3,
+
+To calculate P,, k= 1, 2,..., 99 we generalize. formula (1.6)
+
+__ 1.5.5 The standard deviation
+
+-~ ~- For grouped data the standard deviation is calculated in the same way as for
+ungrouped data. The square of each deviation of a class midpoint from the °
+mean multiplied by the frequency of that specific class has to be added, divided
+
+by (n - 1) and the square root of the result taken.:
+
+    
+
+Example 2
+Using the data in Table 1.2, we will determine the following:
+
+The arithmetic mean:
+
+ 
+
+ 
+
+>‘(’___ E iji
+n
+s 2%54,95 +8® 56,95 +... +1 x66,05
+60
+=60,45 ppm
+The mode
+
+ 
+
+=60,73 ppm
+
+Interpretation: The copper concentration which occurs most often is 60,73
+ppm. :
+
+The median:
+
+me
+
+59,95 +( 30 44] x2
+
+ 
+
+21
+=60,52 ppm
+
+Interpretation: 30 (50%) copper determinations were below 60,52 ppm.
+
+The 25th percentile:
+
+‘ 25®60 _41g
++4] ~AS--| x2
+14
+=58,66 ppm
+
+ 
+
+Interpretation: 15 (25%) of the copper determinations were below 58,66 ppm.The 75th percentile:
+
+um 2a
+=59,05 +] ------ | x2
+P75 54
+
+=61,95 ppm
+
+ 
+
+Interpretation: 45 (75%) of the determinations were below 61 95 ppm.
+
+The range:
+
+Range = Maximum - Minimum
+= 66,3 - 54,4
+= 11,9 ppm
+
+Interpretation: | The data stretches over an interval of 11,9 ppm.
+
+The standard deviation:
+
+S= i Z fKXfW
+n-1
+
+2x (54,95 ... +1 x (66,95 -60,45)*
+60-1
+=2,54 ppm
+
+1.86 - Graphs
+
+1.6.1 The histogram Le i
+
+A histogram consists of a set of touching bars, each having its:
+
+(a) - basis on a horizontal axis were the first bar starts at the lowest class
+boundary in the frequency table and ends at the upper boundary of the
+first class. The subsequent bars all end at the upper boundaries of their
+classes, .
+
+(b) _ Area proportional to its class frequency. If the class intervals all have
+equal width, the heights of the rectangles are proportional to the class
+frequenmes and it is then customary to take the height numerically equal
+
+to the class frequencies. If class intervals do not have equal width, the
+heights must be adjusted. ~HISTOGRAM
+
+No of observations
+
+ 
+
+$53.95 55.095 57.95 59.95 61.95 63.95 65.95 67.95
+Copper determinations (P.P.M.) _ *
+
+1.6.2 The frequency polygon .
+A frequency polygon is a line graph of class frequency plotted against class
+
+midpoint. It can be obtained by connecting the tops of the rectangles in the
+histogram. This graph is used when the underlying data is continuous (like
+copper determinations) instead of categorical, the line can than be used for
+interpolation. Normally, a frequency polygon curve is closed. To achieve this,
+we subtract a class width from the lowest class mark, add a class width to the
+highest class mark and plot these points on the X-axis so that we can close the
+
+cLUrVve.
+
+FREQUENCY POLYGON
+
+Frequency
+
+U
+U
+U
+
+ 
+
+52.95 - 54.95 56.95 58.95 60.95 62.95 64.95 66.95 68.95
+' Copper‘determinations (P.P.M.) | =
+
+101.6.3 Ogives
+A graph showing the cumulative frequency which is less than any upper class
+boundary plotted against this upper class boundary, is called a cumulative
+
+frequency polygon or ogive.
+
+CUMULATIVE FREQUENCY POLYGON OR OGIVE
+
+Cumulative Frequency
+
+ 
+
+53.95 55.95 57.95 59.95 61.985 63.95 65.95 67.95
+Copper determinations (P.P.M.)
+
+B - y
+using
+this polygon, we can see that aproximately 24 copper determination readings were
+
+below 60 ppm.
+
+1.6.4 Relative histogram, frequency polygon and ogivé
+The same definitions as in 1.6.1, 1.6.2 and 1.6.3 apply, except that the
+frequencies are expressed as a percentage of the total.
+
+Remafk:
+It is important to note that the total area of the rectangles of the histogram and
+the area under the frequency polygon equal 100% in this case.
+
+1.7 _- Relation between mean, median and mode
+
+If the frequency polygon is perfectly symmetrical, the mean, median and mode
+coincide. The following figures show the relative positions of these statistics
+when the frequency curves have positive and negative skewness.
+
+11Positive Negative Skew
+
+Skew
+
+MODE MEDIAN MEAN WMEAN MEDIAN MODE
+
+Figure 5
+_ Summary Measures
+
+1.8.1 Interquartile range f
+A useful measure of variability is the interquartile range. It represents the middle
+
+50 % of the observations. It the difference between the third quartile and the first
+
+quartile.
+It will be noted that P;; = Q, and P;; = Q3. The quantity Q;, - Q, is called the
+
+interquartile Range and gives a measure of the middle 50% of the data. In this
+case:
+
+Q, - Q, = 66,95 - 58,66
+= 3,29 ppm
+
+1.8.2 Coefficient of variation
+-on it_self_does_not indicate a relative measure of
+
+variability. For this the coefficient of variation can be used which is defined
+
+by V=4E ..
+X
+For this example: C
+V2:
+112254 c 9.942
+60,45
+
+Interpretation: The variation relative to the mean is 0,042 (4,2%).
+
+1.8.3 Coefficient of skewness , ae
+Two useful measures of skewness are given by Pearson's first and second
+
+X-MO ang s= 3 (X-Me) _
+g
+
+ 
+
+coefficients of skewness, respectively: S, =
+
+Pearsoh’s second coefficient of skewness for this example equals: 
+128
+
+_ 3x (60,45 -60,52)
+' 2,54 '
+
+= -0,083 
+r
+
+1.8.4 The box and whisker plot
+
+A graphical representation of the range, the quartiles and their relative positions
+with regard to each other can be provided by a box and whisker pict. The plot
+begins with a line segment starting at the minimum observed level and ends with
+a line segment ending at the maximum value. The box begins at the first quartile
+and ends at the third, and is divided at the median. The overall length of the plot
+gives the range. The length of the box provides the interquartile range. For the
+example above; the box and whisker plot looks as follows:
+
+Box & Whisker Plot
+
+Copper Determinations (p.p.m.)
+
+ 
+
+interpretation: The distribution shows a slight negative skew. (The histogram and
+polygon confirm this finding). Also, the "box" part of the graph shows that the
+interquartile range is quite small compared to the range of the data, this means that
+50% of the data is concentrated on a relatively small interval. . 
+NB::When the raw data is no longer available the lower boundary of the first class
+
+and the upper boundary of the last class are taken as the box plot's minimum and
+maximum respectively.
+
+13Example 2
+The following sample data applies to the average yield of a final product (in
+
+grams) from each litre of chemical feedstock:
+
+__.____,_.._._.-————_~—h———_—"_‘-'—_'_"-~____~—_—
+
+Yield (grams) _- Class midpoint - Number of batches
+
+( inon rans o a mmr a mig nso__A : mmr a_ eme :A mme mine ner -A
+
+25.5 to under 26,5 - 26 2.
+26,5 to under 27,5 27 *> 3
+27,5 to under 28,85 28 4
+28,5 to under 29,5 29 G
+29,5 to under 30,5 30 7
+30,5 to under 31,5 - 03 11
+31,5 to under 32,5 y 14
+32,5 to under 33,5 __ 33 3
+33,5 to under 34,5 34 1
+
+(1) In this frequency table, the class limits and class borders coincide: for all
+calculations we treat class limits and borders as the same.
+
+(2) _ Instead of writing a class like "27,5 to under 28,5", a more mathematically
+elegant way is to designate this class as "(27,5 - 28,5)", where the "["
+bracket indicates that the 27,5 is included, and the ")" bracket indicates
+
+that the 28,5 is excluded in the class.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a) The mean: b) The median:
+_ fx, £-(3_f)
+X32 [XI Me=L+ 2 E 1 C
+# fMe
+_ 2x26+ 3x27 4+... +34x®1
+- ao - 30,5 +[251—121 } e
+= 30,44 g = 30,86 g
+C) The mode:
+D,.
+Mo =L +] --'-|C
+D,+D, _
+31,5 +|-*-|x1
+3 +9
+
+=31,75 g
+
+14d) The variance:
+
+g1 . 3
+
+n-1.
+
+_ 2x (26-3044) +3x (27 -30.44)°+ ... + 1 x (34 - 30.44)"
+
+50-1
+=3,61 g*
+e) Coefficient of variation: f?) Coefficient of skewness:
+V322. S =3()_(-“‘Me)f vI
+xX
+__ 1,80 . _ 3x (30,44 -30,86)
+30,44 . 1'9_0“"__. -20,062 (6,2%) * * ¢. s _0’66
+
+= g) The frequency polYgon:
+
+Number of Batches
+
+Yield (g)
+
+It is left to the student as an exercise to find the interquartile range. [ans. 3,078].
+
+ 
+
+15a, The box and whisker plot:
+
+36
+
+34
+
+ 
+
+Exercises
+
+3
+
+Use the ungrouped data in table 1.1 to calculate the
+
+(a) mean [ans. 60,37]
+(b) _ median [ans. 60,50]
+(c) standard deviation [ans. 2,54 ].
+
+Compare your results with the statistics obtained from the calculations based on
+the grouped data in table 1.2. Comment on the differences. '
+
+Produce a frequency table using the data in table 1.1 using a class width of 1
+ppm starting with a lower class limit of 54 ppm. Use this table and calculate the
+
+(a) _ mean [ans. 60,37 ppm]
+(b) _ standard deviation [ans. 2,53 ppm].
+
+Compare your results with those obtained from table 1.6. Comment on any
+differences.
+
+Use table 1.2 to draw a relative ogive. What percentage of the determinations
+are less than 60,95 ppm?
+
+16_ 4. A series of unconfined compression tests was carried out on an undisturbed
+sample taken from a soil stratum. The values of the measured strengths are
+given in the table below:
+
+Strength . Frequency
+Lol (kN/im) _ __. bol
+
+24,0 - 26,2
+26,3 - 28,5
+28,6 - 30.8
+30,9 - 33,1 _
+33,2 - 35,4 ~©35,5 - 37.7
+37,8 - 40,0 
+    
+    
+     
+    
+  
+
+Compute the following sample statistics:
+(a) _ The mean strength.
+
+(b) _ The median strength.
+
+(c) The interquartile range.
+
+(d) _ The standard deviation.
+
+Construct the following graphical representations of the above frequency table:
+(e) _ A relative polygon.
+(f) A box plot.
+
+(g) - Give the interpretations of the answers given in (b) and (c) above in the
+context of the problem.
+
+(h) __ Compute the coefficient of skewness and explain the outcome in terms of
+your polygon.
+
+5(a). Table 1.3 shows some data on laboratory measurements on galvanized iron coat
+weights. Use 10 classes, starting with 3,90 - 4,04, 4,05 - 4,19 etc. Produce a
+
+frequency table which summarizes the data in Table 1 3. This table must contain
+the following columns:
+
+(1) class midpoints (X;)
+(i) __ frequency of occurrence of each class ()
+(U) __ relative frequency column
+
+. (Iv) ._ cumulative frequency column.
+
+Table 1.3 Weights of coating of 100 sheets of galvanized iron [units grams per square
+
+___ om. (x0 01}] 
+4,47 4,35 4,58 3,95 4,22 4,77 4,52 4,95 5,10 4,67 4,51 4,48 4,80 4,39 5,39
+4,37 4,72 4,24 4,19 4,62 4,28 4,07 4,56 4,89 5,00 4,66 4,13 4,91 4,73 4,01
+4,03 3,98 4,53 4,92 4,57 5,12 4,89 4,58 4,36 4,59 4,44 4,59 4,69 4,35 4,46
+4,39 4,78 4,61 4,52 3,99 4,23 4,37 4,48 4,93 5,20 4,49 4,62 4,67 4,67 4,78
+4,54 4,00 4,58 4,93 4,55 4,21 4,36 4,50 4,97 4,55
+
+17(b)
+
+Use your frequency distribution to calculate the following:
+
+(i) the mean [ans.4,555] g/icm*
+
+(ii) __ the median [ans.4,553] g/cm
+
+(iii) _ the mode [ans.4,545] g/cm"
+
+(iv) _ the standard deviation [ans.0,310] g/cm.
+
+Interpret the value of the median for this sample.
+
+Find the coefficient of skewness for the frequency distribution.
+
+Draw a frequency polygon and a box plot. ,
+If it can be assumed that the data is approximately normally distributed, find the
+
+two values between which approximately 68% of the data will be: [ans, 4,245
+
+g/cm"; 4,865] g/cm" , e
+In the light of your answers on (d) and (e) above, do you think that the
+
+calculation in (f) can be justified?
+
+By itself, the standard deviation does not convey the relative degree of
+variability. For example, consider the mean and standard deviation of the hand
+
+length and reach of men:
+
+Hand length _ Reach
+
+ 
+
+u = 18,90 cm - yu = 82,12 cm
+0 =0,05 cm o= 0,19 cm
+
+ 
+
+The respective standard deviations suggest that reach has about 4 times the
+variability of hand length. Find the relative variability by calculating the
+
+coefficient of variation. Comment on your answers.
+
+18
