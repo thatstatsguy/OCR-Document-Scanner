@@ -2,7 +2,7 @@
 **Overview**<br>
 Document used to help convert statistics notes from scanned pdfs to text documents which will allow for the Nelson Mandela University Statistics Department to develop new notes from legacy documents.
 
-**Reference Material**
+**Reference Material**<br>
 Full credit to the following website for the tutorial.<br>
 https://www.geeksforgeeks.org/python-reading-contents-of-pdf-using-ocr-optical-character-recognition/ <br>
 Addtional debugging credits for the following StackOverFlow Article.<br>
